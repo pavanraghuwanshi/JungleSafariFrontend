@@ -1,0 +1,154 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.mywebname{
+
+    background-color: transparent; 
+    /* font-family: 'Pacifico', cursive;  */
+     color:#ff9f00;
+     
+}
+
+.myheader{
+        /* background: #12372A; */
+        background-image: url(../Images/four.jpg);
+        padding: 7px;
+}
+
+.Mytext{
+    color:wheat;
+    font-family: monospace;
+    font-size: 50px;
+}
+.Mynav{
+    color:black;
+    font-weight:600;
+    font-size: 20px;
+}
+.Mynav:hover{
+    color:#ff9f00;
+}
+.myfooter{
+  
+    display: flex;
+    justify-content:space-evenly;
+    background-color:#000036;
+    color: bisque;
+
+    
+}
+
+
+.album { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-repeat: no-repeat;
+  
+} 
+
+.myusesection{
+   
+    list-style: none;
+    text-decoration: none;
+    color: bisque;
+}
+.myusesection:hover{
+
+    color:#ff9f00;
+   
+}
+.mainbody{
+
+    height: 600px;
+    width: 100%;
+    /* background-color:bisque; */
+    /* background-image: url(image/four.jpg); */
+    /* background-image: url(image/five.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deshead{
+    margin-left: 40px;
+}
+
+.mydescard{
+
+    display: flex;
+    justify-content: space-evenly;
+
+  
+}
+.Myabouttext{
+
+    font-size: large;
+   padding: 20px;
+
+}
+
+.contectimage{
+
+    /* background-image: url("/image/contectimage.jpeg"); */
+    height:300px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contectcomponent li{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.width{
+    width: 18rem;
+}
+
+.formStyle{
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.subBtn:hover{
+    color:#ff9f00;
+    // font-size: large;
+
+}
+.feedbackStyle{
+
+   margin-left: 80px;
+   margin-right: 80px;
+}
+.feedtxtarea{
+    height: 300px;
+    width: 100%;
+    
+}
+.imageDiv{
+    
+    height:700px;
+    width:400px;
+    // background-position: cover;
+   
+}
+.memories{
+    display: flex;
+    justify-content: space-evenly;
+}
+.memohead{
+
+    color:#ff9f00;
+}
+
+.btntext{
+    font-weight: 500;
+    color:#ff9f00;
+}
